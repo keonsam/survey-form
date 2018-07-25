@@ -1,0 +1,76 @@
+:root {
+  --background-dark: #003366;
+  --background-white: #FFF;
+  --background-light: #0d98ba;
+}
+
+body {
+  background-color: var(--background-dark);
+  padding: 20px 40px;
+  text-align: center;
+}
+
+#container {
+  background-color: var(--background-white);
+  min-height: 100vh;
+  border-radius: 7px;
+}
+
+#light-blue-head {
+  background-color: var(--background-light);
+  height: 50px;
+  border-radius: 7px 7px 0 0;
+}
+#title {
+  font-family: 'Alegreya SC', serif;
+}
+.form-group {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+
+}
+
+#select {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.form-group:focus {
+  border: 1px blue solid;
+
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: 0;
+}
+
+#submit {
+
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+#textarea {
+  height: 50px;
+  resize:vertical;
+}
+#lt {
+  position: relative;
+  bottom: 40px;
+}

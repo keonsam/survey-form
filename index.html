@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Troumaca Suvery Form</title>
+  <meta name="description" content="suvery form for Troumaca">
+  <meta name="Keon Samuel" content="Troumaca Suvery Form">
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="light-blue-head"></div>
+      <h1 id="title">Troumaca Survey</h1>
+    </header>
+    <main>
+      <p id="description">Let us know how we can improve Troumaca.</p>
+      <form id="survey-form">
+        <fieldset>
+          <label>Do you find Troumaca helful:</label>
+          <input id="yes" type="radio" name="items" value="yes">
+      <label for="yes">Yes</label>
+      <input id="no" type="radio" name="items" value="no">
+      <label for="no">No</label>
+      <input id="might be" type="radio" name="items" value="might be">
+      <label for="no">Might Be</label>
+      </fieldset>
+        <label for="name">Name:</label>
+        <input class="form-group" placeholder="Enter your name" id="name"/><br>
+        <label for="name">Name: </label>
+        <input class="form-group" placeholder="Enter your name" id="name"/><br>
+        <label for="email">Email: </label>
+        <input class="form-group" placeholder="Enter your email" id="email"/><br>
+        <label for="age">Age: </label>
+        <input class="form-group" placeholder="Enter your age" id="age"/><br>
+        <label>Which option best describes your current role?</label>
+        <select id="select">
+          <option disabled selected>Select below</option>
+          <option>Employee</option>
+          <option>Business Owner</option>
+          <option>Company</option>
+        </select><br>
+        <label id="lt"for"textarea">Any Comments or Suggestions?</label>
+        <textarea class="form-group" id="textarea" placeholder="Enter your comment here...">
+        </textarea><br>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
